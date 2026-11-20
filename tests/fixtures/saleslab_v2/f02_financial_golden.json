@@ -1,0 +1,322 @@
+{
+  "provenance": "Entirely synthetic values and labels; no company documents or PII.",
+  "source_id": "11111111-1111-4111-8111-111111111111",
+  "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "expected": [
+    [
+      "revenue",
+      "1234560.00",
+      "income_statement"
+    ],
+    [
+      "cash_and_equivalents",
+      "250000",
+      "balance_sheet"
+    ],
+    [
+      "cfo",
+      "-12500.0",
+      "cash_flow_statement"
+    ],
+    [
+      "ebit",
+      "75000",
+      "income_statement"
+    ],
+    [
+      "operating_profit_reported_unconfirmed",
+      "74000",
+      "income_statement"
+    ]
+  ],
+  "locales": {
+    "pt": {
+      "locale": "pt-PT",
+      "rows": [
+        [
+          "Receitas",
+          "1.234,56 mil",
+          "income_statement",
+          "sheet:income!cell:B2"
+        ],
+        [
+          "Caixa e equivalentes",
+          "250 mil",
+          "balance_sheet",
+          "sheet:balance!cell:B2"
+        ],
+        [
+          "Fluxo de caixa operacional",
+          "(12,5 mil)",
+          "cash_flow_statement",
+          "sheet:cash-flow!cell:B2"
+        ],
+        [
+          "EBIT",
+          "75 mil",
+          "income_statement",
+          "sheet:income!cell:B3"
+        ],
+        [
+          "Resultado operacional",
+          "74 mil",
+          "income_statement",
+          "sheet:income!cell:B4"
+        ]
+      ]
+    },
+    "en": {
+      "locale": "en-GB",
+      "rows": [
+        [
+          "Revenue",
+          "1,234.56 thousand",
+          "income_statement",
+          "sheet:income!cell:B2"
+        ],
+        [
+          "Cash and cash equivalents",
+          "250 thousand",
+          "balance_sheet",
+          "sheet:balance!cell:B2"
+        ],
+        [
+          "Cash flow from operations",
+          "(12.5 thousand)",
+          "cash_flow_statement",
+          "sheet:cash-flow!cell:B2"
+        ],
+        [
+          "EBIT",
+          "75 thousand",
+          "income_statement",
+          "sheet:income!cell:B3"
+        ],
+        [
+          "Operating profit",
+          "74 thousand",
+          "income_statement",
+          "sheet:income!cell:B4"
+        ]
+      ]
+    },
+    "es": {
+      "locale": "es-ES",
+      "rows": [
+        [
+          "Ingresos",
+          "1.234,56 mil",
+          "income_statement",
+          "sheet:income!cell:B2"
+        ],
+        [
+          "Efectivo y equivalentes",
+          "250 mil",
+          "balance_sheet",
+          "sheet:balance!cell:B2"
+        ],
+        [
+          "Flujo de efectivo operativo",
+          "(12,5 mil)",
+          "cash_flow_statement",
+          "sheet:cash-flow!cell:B2"
+        ],
+        [
+          "EBIT",
+          "75 mil",
+          "income_statement",
+          "sheet:income!cell:B3"
+        ],
+        [
+          "Resultado operativo",
+          "74 mil",
+          "income_statement",
+          "sheet:income!cell:B4"
+        ]
+      ]
+    },
+    "fr": {
+      "locale": "fr-FR",
+      "rows": [
+        [
+          "Chiffre d’affaires",
+          "1 234,56 mille",
+          "income_statement",
+          "sheet:income!cell:B2"
+        ],
+        [
+          "Trésorerie et équivalents",
+          "250 mille",
+          "balance_sheet",
+          "sheet:balance!cell:B2"
+        ],
+        [
+          "Flux de trésorerie opérationnel",
+          "(12,5 mille)",
+          "cash_flow_statement",
+          "sheet:cash-flow!cell:B2"
+        ],
+        [
+          "EBIT",
+          "75 mille",
+          "income_statement",
+          "sheet:income!cell:B3"
+        ],
+        [
+          "Résultat opérationnel",
+          "74 mille",
+          "income_statement",
+          "sheet:income!cell:B4"
+        ]
+      ]
+    }
+  },
+  "declared_concepts": [
+    "revenue",
+    "operating_costs",
+    "ebit",
+    "ebitda_reported_unverified",
+    "operating_profit_reported_unconfirmed",
+    "net_income",
+    "cash_and_equivalents",
+    "trade_receivables",
+    "inventory",
+    "trade_payables",
+    "total_assets",
+    "total_liabilities",
+    "equity",
+    "cfo",
+    "cfi",
+    "cff",
+    "capex"
+  ],
+  "month_labels": {
+    "pt": [
+      "janeiro",
+      "fevereiro",
+      "março",
+      "abril",
+      "maio",
+      "junho",
+      "julho",
+      "agosto",
+      "setembro",
+      "outubro",
+      "novembro",
+      "dezembro"
+    ],
+    "en": [
+      "january",
+      "february",
+      "march",
+      "april",
+      "may",
+      "june",
+      "july",
+      "august",
+      "september",
+      "october",
+      "november",
+      "december"
+    ],
+    "es": [
+      "enero",
+      "febrero",
+      "marzo",
+      "abril",
+      "mayo",
+      "junio",
+      "julio",
+      "agosto",
+      "septiembre",
+      "octubre",
+      "noviembre",
+      "diciembre"
+    ],
+    "fr": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ]
+  },
+  "literal_edge_coverage": [
+    {
+      "case": "quarter",
+      "input": "Q2 2026",
+      "expected_granularity": "quarter"
+    },
+    {
+      "case": "year",
+      "input": "Year 2026",
+      "expected_granularity": "year"
+    },
+    {
+      "case": "ytd",
+      "input": "Q3 YTD 2026",
+      "expected_granularity": "ytd"
+    },
+    {
+      "case": "fiscal_year",
+      "input": "FY 2026",
+      "fiscal_year_end_month": 6,
+      "expected_start": "2025-07-01",
+      "expected_end": "2026-06-30"
+    },
+    {
+      "case": "explicit_currency",
+      "input": "EUR 1,000.125",
+      "expected_currency": "EUR"
+    },
+    {
+      "case": "missing_currency",
+      "input": "10",
+      "expected_issue": "currency.missing"
+    },
+    {
+      "case": "percentage",
+      "input": "12.345%",
+      "expected_currency": null
+    },
+    {
+      "case": "zero",
+      "input": "0",
+      "expected_value": "0"
+    },
+    {
+      "case": "missing",
+      "input": "",
+      "expected_null_reason": "missing"
+    },
+    {
+      "case": "not_applicable",
+      "input": "n/a",
+      "expected_null_reason": "not_applicable"
+    },
+    {
+      "case": "unknown",
+      "input": "not found",
+      "expected_null_reason": "unknown"
+    },
+    {
+      "case": "consolidated",
+      "scope": "consolidated"
+    },
+    {
+      "case": "segment",
+      "scope": "segment"
+    },
+    {
+      "case": "eliminations",
+      "scope": "eliminations"
+    }
+  ]
+}

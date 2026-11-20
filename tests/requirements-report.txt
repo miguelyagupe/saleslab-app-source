@@ -1,0 +1,4 @@
+# Pinned rasterizer for F-08 visual regression; not a production dependency.
+pypdfium2==5.14.0
+# HTTP/ASGI integration tests for the authenticated upload workflow.
+httpx>=0.27,<1

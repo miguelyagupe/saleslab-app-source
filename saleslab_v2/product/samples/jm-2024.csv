@@ -1,0 +1,7 @@
+line;amount;period;statement_type;scope;currency;scale;comparison_basis
+Sales and services rendered;33,464;2024;income_statement;consolidated;EUR;millions;current
+Profit before non-controlling interests;606;2024;income_statement;consolidated;EUR;millions;current
+Cash flow from operating activities;1,654;2024;cash_flow_statement;consolidated;EUR;millions;current
+Sales and services rendered;30,608;2023;income_statement;consolidated;EUR;millions;comparative
+Profit before non-controlling interests;773;2023;income_statement;consolidated;EUR;millions;comparative
+Cash flow from operating activities;2,025;2023;cash_flow_statement;consolidated;EUR;millions;comparative

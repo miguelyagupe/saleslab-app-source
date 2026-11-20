@@ -1,0 +1,17 @@
+fastapi
+pydantic>=2.7,<3
+uvicorn
+python-multipart
+anthropic
+slowapi
+stripe
+resend
+openpyxl
+pyjwt
+sqlalchemy[asyncio]
+asyncpg
+alembic
+bcrypt
+google-auth
+reportlab==4.4.9
+pypdf>=6,<7

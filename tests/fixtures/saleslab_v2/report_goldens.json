@@ -1,0 +1,22 @@
+{
+  "pt": {
+    "manifest_hash": "a2db4d0d59a06ffc0b400ded61f1f88328d8722d3db2f9464395a1a1446ff6a3",
+    "page_count": 21,
+    "page_ink_hash": "6455553d90f97bd3b6dad8ad9315fdbd421683771e2a2890fcdb2d1a187cf0c8"
+  },
+  "en": {
+    "manifest_hash": "63f9bd90ad3fda80293fef714dfaa60b788b06c081630e8850e7f3af367ae59e",
+    "page_count": 21,
+    "page_ink_hash": "96890f743f181f74600d182dd095db2d7ae179b739944e2b6997bc3cf4bae221"
+  },
+  "es": {
+    "manifest_hash": "b2440b2a884e1e856e4c5ff03c81f0035706ba8b08d3529d04a15333252def34",
+    "page_count": 21,
+    "page_ink_hash": "4f78b2ce50292cf12db5905e0fe1d3efb70813d5185c4056361a1426fdd57e2a"
+  },
+  "fr": {
+    "manifest_hash": "8846ae599a0bfb7ba3be50ddb80b5b0fe98e625a19cdf731ee56e04b3c99cacf",
+    "page_count": 21,
+    "page_ink_hash": "65e37854ff3f3626de2dca62129a1507be09ce1fb1450d8cd4729e738b0b13f7"
+  }
+}

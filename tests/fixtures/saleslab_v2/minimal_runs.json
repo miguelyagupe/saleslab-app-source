@@ -1,0 +1,10 @@
+{
+  "provenance": "Entirely synthetic metadata; no personal data, company documents, or financial figures.",
+  "synthetic_sme": {"workspace_name": "PME Exemplo", "filename": "vendas_sinteticas.csv"},
+  "locales": ["pt-PT", "en-GB", "es-ES", "fr-FR"],
+  "jeronimo_martins": {
+    "provenance": "Synthetic metadata using only the publicly known company name; not derived from or bundled with any report.",
+    "company_name": "Jerónimo Martins",
+    "filename": "jm_synthetic_metadata_only.pdf"
+  }
+}
